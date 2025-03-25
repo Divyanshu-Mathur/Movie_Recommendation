@@ -4,9 +4,7 @@ import pandas
 import numpy
 import requests
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 api_key = st.secrets["general"]["API_KEY"]
 
 
